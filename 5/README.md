@@ -1,6 +1,6 @@
-### Harbor 1.1.1 deployment (revision 1) ###
+### Harbor 1.8.0 deployment ###
 
-This catalog item version deploys `Harbor` 1.1.1 on a Cattle cluster and leverages [Harbor setup wrapper](https://hub.docker.com/r/mreferre/harbor-setupwrapper/tags/) version 1.1.1-1. 
+This catalog item version deploys `Harbor` 1.8.0 on a Cattle cluster and leverages [Harbor setup wrapper] (on a local registry) version 1.8.0. 
 
 This catalog item version supports both a basic (i.e. standalone) as well as advanced (i.e. distributed) deployment model for Harbor. 
 
