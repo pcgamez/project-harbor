@@ -44,7 +44,7 @@ volumes: #most volumes mappings require optimization (now all volumes map all co
     driver: ${volumedriver}
 services:
   harbor-setupwrapper:
-    image: local-registry:50000/cov/harbor-setupwrapper:latest
+    image: http://local-registry:50000/cov/harbor-setupwrapper:latest
     container_name: harbor-setupwrapper
     environment:
       - HARBORHOSTNAME=${harborhostname}
